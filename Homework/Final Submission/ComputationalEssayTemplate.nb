@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3527700,      58556]
-NotebookOptionsPosition[   3516663,      58370]
-NotebookOutlinePosition[   3517629,      58403]
-CellTagsIndexPosition[   3517557,      58398]
+NotebookDataLength[   3527685,      58553]
+NotebookOptionsPosition[   3516649,      58367]
+NotebookOutlinePosition[   3517615,      58400]
+CellTagsIndexPosition[   3517543,      58395]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -57729,45 +57729,42 @@ Cell[BoxData[{
      RowBox[{"200", ",", "800", ",", "200"}], "]"}]}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{"ListLinePlot", "[", 
-  RowBox[{
-   RowBox[{"Table", "[", 
-    RowBox[{
-     RowBox[{"Table", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"Keys", "[", 
-          RowBox[{
-           RowBox[{
-           "AllStrengthData", "\[LeftDoubleBracket]", "m", 
-            "\[RightDoubleBracket]"}], "\[LeftDoubleBracket]", "n", 
-           "\[RightDoubleBracket]"}], "]"}], ",", 
-         RowBox[{"Values", "[", 
-          RowBox[{
-           RowBox[{
-           "AllStrengthData", "\[LeftDoubleBracket]", "m", 
-            "\[RightDoubleBracket]"}], "\[LeftDoubleBracket]", "n", 
-           "\[RightDoubleBracket]"}], "]"}]}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"n", ",", 
-         RowBox[{"Length", "[", 
-          RowBox[{
-          "AllStrengthData", "\[LeftDoubleBracket]", "m", 
-           "\[RightDoubleBracket]"}], "]"}]}], "}"}]}], "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"m", ",", 
-       RowBox[{"Length", "[", "AllStrengthData", "]"}]}], "}"}]}], "]"}], ",", 
-   RowBox[{"Mesh", "\[Rule]", "All"}], ",", 
-   RowBox[{"Filling", "\[Rule]", "Axis"}], ",", 
-   RowBox[{"PlotLegends", "\[Rule]", 
-    RowBox[{"{", 
-     RowBox[{
-     "\"\<1xBW\>\"", ",", "\"\<2xBW\>\"", ",", "\"\<3xBW\>\"", ",", 
-      "\"\<4xBW\>\""}], "}"}]}], ",", 
-   RowBox[{"AxesLabel", "\[Rule]", 
-    RowBox[{"{", 
-     RowBox[{"\"\<Bodyweight(lbs)\>\"", ",", "\"\<Lift(lbs)\>\""}], "}"}]}]}],
-   "]"}]}], "Input",
+  InterpretationBox[
+   DynamicModuleBox[{Typeset`open = False}, 
+    TemplateBox[{"Expression","SequenceIcon",GridBox[{{
+         RowBox[{
+           TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+           TagBox["Sequence", "IconizedItem"]}]}, {
+         RowBox[{
+           TagBox["\"Length: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+           TagBox["5", "IconizedItem"]}]}, {
+         RowBox[{
+           TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+           TagBox["1392", "IconizedItem"]}]}}, 
+       GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+       "Column", 
+       GridBoxItemSize -> {
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],Dynamic[
+      Typeset`open]},
+     "IconizedObject"]],
+   Sequence[
+    Table[
+     Table[{
+       Keys[
+        Part[
+         Part[$CellContext`AllStrengthData, $CellContext`m], $CellContext`n]], 
+       Values[
+        Part[
+         Part[$CellContext`AllStrengthData, $CellContext`m], \
+$CellContext`n]]}, {$CellContext`n, 
+       Length[
+        Part[$CellContext`AllStrengthData, $CellContext`m]]}], \
+{$CellContext`m, 
+      Length[$CellContext`AllStrengthData]}], Mesh -> All, Filling -> Axis, 
+    PlotLegends -> {"1xBW", "2xBW", "3xBW", "4xBW"}, 
+    AxesLabel -> {"Bodyweight(lbs)", "Lift(lbs)"}],
+   SelectWithContents->True,
+   Selectable->False], "]"}]}], "Input",
  CellChangeTimes->{
   3.770725232396552*^9, {3.770726567714508*^9, 3.7707265839338512`*^9}, {
    3.770726693412472*^9, 3.7707266974485617`*^9}, {3.770730512105385*^9, 
@@ -57775,9 +57772,9 @@ Cell[BoxData[{
    3.770732683842966*^9, 3.7707326948295727`*^9}, 3.7707356526918364`*^9, 
    3.770736300573215*^9, 3.770748025523838*^9, {3.770749947834338*^9, 
    3.770749968472337*^9}, 3.770750017511834*^9, {3.770750220114942*^9, 
-   3.770750221307313*^9}},
- CellLabel->
-  "In[581]:=",ExpressionUUID->"6e77a136-2cd6-4dfb-93a7-4f745c625167"],
+   3.770750221307313*^9}, 
+   3.770914056890318*^9},ExpressionUUID->"6e77a136-2cd6-4dfb-93a7-\
+4f745c625167"],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{}, 
@@ -58397,7 +58394,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 3517418, 58392}
+ {"Title", 3517404, 58389}
  }
 *)
 (*NotebookFileOutline
@@ -58542,20 +58539,20 @@ Cell[3486379, 57676, 311, 5, 35, "Text",ExpressionUUID->"c0777c33-1467-4331-bde0
 Cell[3486693, 57683, 149, 3, 52, "Input",ExpressionUUID->"c867430e-2d30-4e21-abb4-d263c2a692ad"],
 Cell[3486845, 57688, 869, 15, 127, "Text",ExpressionUUID->"20613bd4-803a-4c2d-ae8f-0fbd52295e18"],
 Cell[CellGroupData[{
-Cell[3487739, 57707, 2727, 72, 180, "Input",ExpressionUUID->"6e77a136-2cd6-4dfb-93a7-4f745c625167"],
-Cell[3490469, 57781, 23998, 531, 213, "Output",ExpressionUUID->"fe5ef49a-a3bd-450f-8a82-f8ba9128eebe"]
+Cell[3487739, 57707, 2713, 69, 99, "Input",ExpressionUUID->"6e77a136-2cd6-4dfb-93a7-4f745c625167"],
+Cell[3490455, 57778, 23998, 531, 213, "Output",ExpressionUUID->"fe5ef49a-a3bd-450f-8a82-f8ba9128eebe"]
 }, Open  ]],
-Cell[3514482, 58315, 149, 3, 52, "Input",ExpressionUUID->"b44ce22a-27e4-4e2b-847b-60b07236de22"]
+Cell[3514468, 58312, 149, 3, 52, "Input",ExpressionUUID->"b44ce22a-27e4-4e2b-847b-60b07236de22"]
 }, Open  ]],
-Cell[3514646, 58321, 155, 3, 67, "Section",ExpressionUUID->"f0b24865-13f2-431a-819b-8c968a0fe332"],
+Cell[3514632, 58318, 155, 3, 67, "Section",ExpressionUUID->"f0b24865-13f2-431a-819b-8c968a0fe332"],
 Cell[CellGroupData[{
-Cell[3514826, 58328, 74, 0, 53, "Section",ExpressionUUID->"5802b919-f326-4824-befe-6685eff70e45"],
-Cell[3514903, 58330, 1073, 16, 104, "Text",ExpressionUUID->"2134f45c-d2bf-46b6-b48f-802b616ec0f8"],
-Cell[3515979, 58348, 280, 5, 136, "Input",ExpressionUUID->"6c133b28-f3bd-407a-a96d-972f619c1d36"]
+Cell[3514812, 58325, 74, 0, 53, "Section",ExpressionUUID->"5802b919-f326-4824-befe-6685eff70e45"],
+Cell[3514889, 58327, 1073, 16, 104, "Text",ExpressionUUID->"2134f45c-d2bf-46b6-b48f-802b616ec0f8"],
+Cell[3515965, 58345, 280, 5, 136, "Input",ExpressionUUID->"6c133b28-f3bd-407a-a96d-972f619c1d36"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3516296, 58358, 163, 3, 67, "Section",ExpressionUUID->"34cd78a0-eab5-4fa5-b1f7-6542b8c3b80d"],
-Cell[3516462, 58363, 173, 3, 35, "Text",ExpressionUUID->"4ed1cb7d-6271-4e83-a3fb-795065253ee5"]
+Cell[3516282, 58355, 163, 3, 67, "Section",ExpressionUUID->"34cd78a0-eab5-4fa5-b1f7-6542b8c3b80d"],
+Cell[3516448, 58360, 173, 3, 35, "Text",ExpressionUUID->"4ed1cb7d-6271-4e83-a3fb-795065253ee5"]
 }, Open  ]]
 }, Open  ]]
 }
